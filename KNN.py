@@ -3,11 +3,13 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as pltgraph
 import seaborn as sns
+
+# Importing metrics from sklearn for accuracy comparison
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
-# Set a random seed for reproducibility
+# Set a random seed for reproducibility (Saves order)
 RANDOM_STATE = 42
 np.random.seed(RANDOM_STATE)
 
